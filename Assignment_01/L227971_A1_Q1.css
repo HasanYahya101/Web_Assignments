@@ -186,6 +186,14 @@ body.dark .category-card {
     transition: background-image 0.3s ease-in-out;
 }
 
+.blended-bg.dark {
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, #1f2937 100%),
+        url('./bg.jpeg') no-repeat center center fixed;
+    background-size: contain;
+    filter: brightness(80%);
+}
+
 #darkModeToggle {
     background: none;
     border: none;
